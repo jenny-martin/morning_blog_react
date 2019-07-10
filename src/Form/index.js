@@ -14,7 +14,6 @@ export default class Form extends Component {
     }
     
     handleSubmit = event => {
-        console.log(' form index.js line 18 this event fired')
         event.preventDefault()
 		this.props.handleAddPost(this.state)
 		this.setState({
